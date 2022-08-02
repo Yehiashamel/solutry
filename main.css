@@ -125,6 +125,9 @@ html {
   color: white;
   text-align: center;
 }
+#home .home-txt h3 {
+  font-size: 35px;
+}
 #home .home-txt h3, #home .home-txt a, #home .home-txt p {
   margin: 0 30px;
 }
