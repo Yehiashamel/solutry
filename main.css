@@ -133,7 +133,7 @@ html {
 }
 #home .home-txt .home-btn {
   border: 1px solid;
-  background-color: rgba(0, 0, 255, 0.6784313725);
+  background-color: red;
   height: 40px;
   color: white;
   display: flex;
@@ -147,11 +147,7 @@ html {
   color: white;
 }
 #home .home-txt .home-btn:hover {
-  color: rgba(0, 0, 255, 0.6784313725);
-  background-color: white;
-}
-#home .home-txt .home-btn:hover p {
-  color: rgba(0, 0, 255, 0.6784313725);
+  background-color: rgba(0, 0, 255, 0.6784313725);
 }
 
 @media screen and (max-width: 575px) {
