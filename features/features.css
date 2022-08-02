@@ -21,7 +21,9 @@
 #Features .container-features .feature {
   margin: 0 10px;
   text-align: center;
-  border: 1px solid white;
+}
+#Features .container-features .feature h4 {
+  text-transform: capitalize;
 }
 #Features .container-features .feature P {
   color: #9b8d8d;
@@ -33,4 +35,25 @@
 }
 #Features .container-features .feature a:hover {
   color: white;
+}
+
+@media screen and (max-width: 575px) {
+  #Features .container-features {
+    grid-template-columns: 1fr;
+  }
+  #Features .container-features .feature {
+    border: 1px solid white;
+    margin: 10px;
+    height: 95%;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 800px) {
+  #Features .container-features {
+    grid-template-columns: 1fr 1fr;
+  }
+  #Features .container-features .feature {
+    border: 1px solid white;
+    margin: 10px;
+    height: 95%;
+  }
 }/*# sourceMappingURL=features.css.map */
