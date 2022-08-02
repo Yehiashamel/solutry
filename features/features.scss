@@ -1,0 +1,36 @@
+#Features{
+    background-color: black;
+    color: white;
+    h2,h5{
+        text-align: center;
+        margin:0 10px 10px;
+    }
+    h5{
+        color: #9b8d8d;
+        font-size: 1.5em;
+        padding-top: 10px;
+    }
+    h2{
+        font-size: 2em;
+    }
+    .container-features{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        .feature{
+            margin: 0 10px;
+            text-align: center;
+            border: 1px solid white;
+            P{
+                color: #9b8d8d;
+            }
+            a{
+                text-decoration: none;
+                color: red;
+                transition: 0.4s;
+            }
+            a:hover{
+                color: white;
+            }
+        }
+    }
+}

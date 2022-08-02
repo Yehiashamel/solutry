@@ -1,0 +1,36 @@
+#Features {
+  background-color: black;
+  color: white;
+}
+#Features h2, #Features h5 {
+  text-align: center;
+  margin: 0 10px 10px;
+}
+#Features h5 {
+  color: #9b8d8d;
+  font-size: 1.5em;
+  padding-top: 10px;
+}
+#Features h2 {
+  font-size: 2em;
+}
+#Features .container-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#Features .container-features .feature {
+  margin: 0 10px;
+  text-align: center;
+  border: 1px solid white;
+}
+#Features .container-features .feature P {
+  color: #9b8d8d;
+}
+#Features .container-features .feature a {
+  text-decoration: none;
+  color: red;
+  transition: 0.4s;
+}
+#Features .container-features .feature a:hover {
+  color: white;
+}/*# sourceMappingURL=features.css.map */
