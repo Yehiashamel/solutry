@@ -44,6 +44,7 @@
 @media screen and (max-width: 575px) {
   #Features .container-features {
     grid-template-columns: 1fr;
+    margin: 30px;
   }
   #Features .container-features .feature {
     border: 1px solid black;

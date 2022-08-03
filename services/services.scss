@@ -4,17 +4,13 @@
     background-color: #80808066;
     img{
         width: 100%;
+        margin: auto;
     }
     .title{
         margin: 10px;
         font-size: 1.5em;
     }
-    #fourth-service{
-        margin-left: 8%;
-    }
-    #second-service{
-        margin-left: 8%;
-    }
+   
     .service{
         background-color: white;
         display: flex;
@@ -54,8 +50,15 @@
 @media screen and(max-width:625px) {
     #Services{
         grid-template-columns: 1fr;
+        .title{
+            margin: 20px;
+        }
         .service{
             width: 90%;
         }
+    }
+    #services2{
+        display: flex;
+        flex-direction: column-reverse;
     }
 }

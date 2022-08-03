@@ -5,16 +5,11 @@
 }
 #Services img {
   width: 100%;
+  margin: auto;
 }
 #Services .title {
   margin: 10px;
   font-size: 1.5em;
-}
-#Services #fourth-service {
-  margin-left: 8%;
-}
-#Services #second-service {
-  margin-left: 8%;
 }
 #Services .service {
   background-color: white;
@@ -54,7 +49,14 @@
   #Services {
     grid-template-columns: 1fr;
   }
+  #Services .title {
+    margin: 20px;
+  }
   #Services .service {
     width: 90%;
+  }
+  #services2 {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }/*# sourceMappingURL=services.css.map */
