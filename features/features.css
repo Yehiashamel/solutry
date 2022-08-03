@@ -1,6 +1,6 @@
 #Features {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 #Features h2, #Features h5 {
   text-align: center;
@@ -17,6 +17,7 @@
 #Features .container-features {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 30px;
 }
 #Features .container-features .feature {
   margin: 0 10px;
@@ -34,7 +35,10 @@
   transition: 0.4s;
 }
 #Features .container-features .feature a:hover {
-  color: white;
+  color: grey;
+}
+#Features .container-features .feature img {
+  margin: 10px;
 }
 
 @media screen and (max-width: 575px) {
@@ -42,7 +46,7 @@
     grid-template-columns: 1fr;
   }
   #Features .container-features .feature {
-    border: 1px solid white;
+    border: 1px solid black;
     margin: 10px;
     height: 95%;
   }
@@ -55,7 +59,7 @@
     grid-template-columns: 1fr 1fr;
   }
   #Features .container-features .feature {
-    border: 1px solid white;
+    border: 1px solid black;
     margin: 10px;
     height: 95%;
   }

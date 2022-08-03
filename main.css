@@ -89,13 +89,13 @@ nav #nav-button:hover {
 #home {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #464141;
+  background-color: rgba(128, 128, 128, 0.4);
 }
 #home .home-img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("./images/shape21.png");
+  background-image: url("./images/shape2.png");
   background-position-x: right;
   background-repeat: no-repeat;
 }
@@ -104,14 +104,14 @@ nav #nav-button:hover {
   padding: 10%;
 }
 #home .home-txt {
-  background-image: url("./images/shape12.png");
+  background-image: url("./images/shape1.png");
   background-repeat: no-repeat;
   background-position: left;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: white;
+  color: black;
   text-align: center;
 }
 #home .home-txt h3 {
@@ -121,7 +121,7 @@ nav #nav-button:hover {
   margin: 0 30px;
 }
 #home .home-txt p {
-  color: rgba(245, 245, 245, 0.7215686275);
+  color: rgb(123, 105, 105);
 }
 #home .home-txt .home-btn {
   border: 1px solid;
@@ -158,8 +158,8 @@ nav #nav-button:hover {
   }
 }
 #Features {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 #Features h2, #Features h5 {
   text-align: center;
@@ -176,10 +176,14 @@ nav #nav-button:hover {
 #Features .container-features {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 30px;
 }
 #Features .container-features .feature {
   margin: 0 10px;
   text-align: center;
+}
+#Features .container-features .feature h4 {
+  text-transform: capitalize;
 }
 #Features .container-features .feature P {
   color: #9b8d8d;
@@ -190,7 +194,10 @@ nav #nav-button:hover {
   transition: 0.4s;
 }
 #Features .container-features .feature a:hover {
-  color: white;
+  color: grey;
+}
+#Features .container-features .feature img {
+  margin: 10px;
 }
 
 @media screen and (max-width: 575px) {
@@ -198,9 +205,12 @@ nav #nav-button:hover {
     grid-template-columns: 1fr;
   }
   #Features .container-features .feature {
-    border: 1px solid white;
-    margin: 10px 0;
+    border: 1px solid black;
+    margin: 10px;
     height: 95%;
+  }
+  #Features .container-features .feature p {
+    margin: 10px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 800px) {
@@ -208,11 +218,59 @@ nav #nav-button:hover {
     grid-template-columns: 1fr 1fr;
   }
   #Features .container-features .feature {
-    border: 1px solid white;
+    border: 1px solid black;
     margin: 10px;
     height: 95%;
   }
+  #Features .container-features .feature p {
+    margin: 10px;
+  }
 }
+#Services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(128, 128, 128, 0.4);
+}
+#Services .title {
+  margin: 10px;
+  font-size: 1.5em;
+}
+#Services .service {
+  background-color: white;
+  display: flex;
+  height: 40px;
+  width: 70%;
+  border: 1px solid white;
+  border-radius: 10pc;
+  margin: 10% 10px;
+}
+#Services .service #fourth-service {
+  margin-left: 40px;
+}
+#Services .service #second-service {
+  margin-left: 40px;
+}
+#Services .service h3 {
+  display: flex;
+  align-items: center;
+}
+#Services .service a {
+  border: 1px solid gray;
+  border-radius: 50%;
+  background-color: gray;
+  color: white;
+  height: 100%;
+  margin: 0 10px;
+  width: 40px;
+  text-decoration: none;
+}
+#Services .service a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
 * {
   padding: 0;
   margin: 0;

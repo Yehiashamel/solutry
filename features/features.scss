@@ -1,6 +1,6 @@
 #Features{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     h2,h5{
         text-align: center;
         margin:0 10px 10px;
@@ -16,6 +16,7 @@
     .container-features{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top: 30px;
         .feature{
             margin: 0 10px;
             text-align: center;
@@ -31,7 +32,10 @@
                 transition: 0.4s;
             }
             a:hover{
-                color: white;
+                color: grey;
+            }
+            img{
+                margin: 10px;
             }
         }
     }
@@ -41,7 +45,7 @@
         .container-features{
             grid-template-columns: 1fr ;
             .feature{
-                border: 1px solid white;
+                border: 1px solid black;
                 margin: 10px;
                 height: 95%;
                 p{
@@ -56,7 +60,7 @@
     .container-features{
         grid-template-columns: 1fr 1fr;
         .feature{
-            border: 1px solid white;
+            border: 1px solid black;
             margin: 10px;
             height: 95%;
             p{
