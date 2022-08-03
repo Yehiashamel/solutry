@@ -11,16 +11,16 @@
   font-size: 1.5em;
 }
 #Services #fourth-service {
-  margin-left: 40px;
+  margin-left: 8%;
 }
 #Services #second-service {
-  margin-left: 40px;
+  margin-left: 8%;
 }
 #Services .service {
   background-color: white;
   display: flex;
   height: 40px;
-  width: 70%;
+  width: 80%;
   border: 1px solid white;
   border-radius: 10pc;
   margin: 10% 10px;
@@ -50,8 +50,11 @@
   background-color: red;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 625px) {
   #Services {
     grid-template-columns: 1fr;
+  }
+  #Services .service {
+    width: 90%;
   }
 }/*# sourceMappingURL=services.css.map */
