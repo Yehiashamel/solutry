@@ -232,6 +232,12 @@ nav #nav-button:hover {
   grid-template-columns: 1fr 1fr;
   background-color: rgba(128, 128, 128, 0.4);
 }
+#Services h2, #Services h4 {
+  text-transform: capitalize;
+}
+#Services h4 {
+  color: grey;
+}
 #Services img {
   width: 100%;
   margin: auto;
@@ -273,6 +279,16 @@ nav #nav-button:hover {
 #Services .service a:hover {
   background-color: red;
 }
+#Services .container {
+  display: flex;
+  width: 200%;
+}
+#Services .container .service {
+  width: 95%;
+}
+#Services .container img {
+  width: 84%;
+}
 
 @media screen and (max-width: 625px) {
   #Services {
@@ -284,9 +300,65 @@ nav #nav-button:hover {
   #Services .service {
     width: 90%;
   }
-  #services2 {
+  #Services .container {
     display: flex;
     flex-direction: column-reverse;
+    width: 100%;
+  }
+}
+#blogs .title {
+  text-align: center;
+  width: 99%;
+  margin: 10px;
+  font-size: 1.5em;
+}
+#blogs .container-blogs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#blogs .container-blogs .blog {
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#blogs .container-blogs .blog img {
+  width: 100%;
+}
+#blogs .container-blogs .blog .information {
+  display: flex;
+  width: 100%;
+  margin: 10px 10px;
+}
+#blogs .container-blogs .blog .information p {
+  margin: 0 10px;
+}
+#blogs .container-blogs .blog .information i {
+  color: red;
+  margin: 5px;
+}
+#blogs .container-blogs .blog #paragraph {
+  font-size: 1.5em;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 10px;
+}
+
+@media screen and (max-width: 575px) {
+  #blogs .container-blogs {
+    grid-template-columns: 1fr;
+  }
+  #blogs .container-blogs .blog {
+    margin: 30px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 800px) {
+  .container-blogs {
+    grid-template-columns: 1fr 1fr;
+  }
+  .container-blogs #third-blog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 * {

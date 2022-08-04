@@ -2,6 +2,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #80808066;
+    h2,h4{
+        text-transform: capitalize;
+    }
+    h4{
+        color: grey;
+    }
     img{
         width: 100%;
         margin: auto;
@@ -46,6 +52,16 @@
              background-color: red;   
         }
     }
+    .container{
+        display: flex;
+        width: 200%;
+        .service{
+            width: 95%;
+        }
+        img{
+            width: 84%;
+        }
+    }
 }
 @media screen and(max-width:625px) {
     #Services{
@@ -56,9 +72,11 @@
         .service{
             width: 90%;
         }
-    }
-    #services2{
+    
+    .container{
         display: flex;
         flex-direction: column-reverse;
+        width: 100%;
     }
+}
 }

@@ -3,6 +3,12 @@
   grid-template-columns: 1fr 1fr;
   background-color: rgba(128, 128, 128, 0.4);
 }
+#Services h2, #Services h4 {
+  text-transform: capitalize;
+}
+#Services h4 {
+  color: grey;
+}
 #Services img {
   width: 100%;
   margin: auto;
@@ -44,6 +50,16 @@
 #Services .service a:hover {
   background-color: red;
 }
+#Services .container {
+  display: flex;
+  width: 200%;
+}
+#Services .container .service {
+  width: 95%;
+}
+#Services .container img {
+  width: 84%;
+}
 
 @media screen and (max-width: 625px) {
   #Services {
@@ -55,8 +71,9 @@
   #Services .service {
     width: 90%;
   }
-  #services2 {
+  #Services .container {
     display: flex;
     flex-direction: column-reverse;
+    width: 100%;
   }
 }/*# sourceMappingURL=services.css.map */
