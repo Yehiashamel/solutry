@@ -49,12 +49,13 @@
 }
 }
 @media screen and (min-width:576px) and (max-width:800px){
+    #blogs{
     .container-blogs{
         grid-template-columns: 1fr 1fr;
         #third-blog{
-            display: flex;
-            align-items: center;
-            justify-content: center;
+           width: 100%;
+           margin: 10px 50%;
         }
+    }
     }
 }

@@ -17,6 +17,12 @@
   margin: 10px;
   font-size: 1.5em;
 }
+#Services .container-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 #Services .service {
   background-color: white;
   display: flex;
@@ -24,7 +30,7 @@
   width: 80%;
   border: 1px solid white;
   border-radius: 10pc;
-  margin: 10% 10px;
+  margin: 30px 10px;
 }
 #Services .service h3 {
   display: flex;
@@ -59,6 +65,7 @@
 }
 #Services .container img {
   width: 84%;
+  padding: 8%;
 }
 
 @media screen and (max-width: 625px) {
@@ -75,5 +82,10 @@
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  #Services .container img {
+    padding: 0;
   }
 }/*# sourceMappingURL=services.css.map */

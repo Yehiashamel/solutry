@@ -44,12 +44,11 @@
   }
 }
 @media screen and (min-width: 576px) and (max-width: 800px) {
-  .container-blogs {
+  #blogs .container-blogs {
     grid-template-columns: 1fr 1fr;
   }
-  .container-blogs #third-blog {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  #blogs .container-blogs #third-blog {
+    width: 100%;
+    margin: 10px 50%;
   }
 }/*# sourceMappingURL=blogs.css.map */

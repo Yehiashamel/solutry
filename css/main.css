@@ -246,6 +246,12 @@ nav #nav-button:hover {
   margin: 10px;
   font-size: 1.5em;
 }
+#Services .container-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 #Services .service {
   background-color: white;
   display: flex;
@@ -253,7 +259,7 @@ nav #nav-button:hover {
   width: 80%;
   border: 1px solid white;
   border-radius: 10pc;
-  margin: 10% 10px;
+  margin: 30px 10px;
 }
 #Services .service h3 {
   display: flex;
@@ -288,6 +294,7 @@ nav #nav-button:hover {
 }
 #Services .container img {
   width: 84%;
+  padding: 8%;
 }
 
 @media screen and (max-width: 625px) {
@@ -304,6 +311,11 @@ nav #nav-button:hover {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  #Services .container img {
+    padding: 0;
   }
 }
 #blogs .title {
@@ -352,13 +364,70 @@ nav #nav-button:hover {
   }
 }
 @media screen and (min-width: 576px) and (max-width: 800px) {
-  .container-blogs {
+  #blogs .container-blogs {
     grid-template-columns: 1fr 1fr;
   }
-  .container-blogs #third-blog {
+  #blogs .container-blogs #third-blog {
+    width: 100%;
+    margin: 10px 50%;
+  }
+}
+#newseltter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(128, 128, 128, 0.4);
+}
+#newseltter img {
+  height: 90%;
+  width: 100%;
+}
+#newseltter .container-newseltter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#newseltter .container-newseltter .title {
+  margin: 10px;
+  font-size: 1.5em;
+  text-align: center;
+}
+#newseltter .container-newseltter .title h4 {
+  color: grey;
+}
+#newseltter .container-newseltter .subscribe {
+  display: flex;
+  width: 90%;
+  margin: 10px;
+  align-items: center;
+}
+#newseltter .container-newseltter .subscribe input {
+  width: 50%;
+  height: 40px;
+}
+#newseltter .container-newseltter .subscribe a {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  margin: 10px;
+  height: 40px;
+  width: 157px;
+  display: flex;
+  align-items: center;
+  transition: 0.4s;
+  justify-content: center;
+}
+#newseltter .container-newseltter .subscribe a:hover {
+  background-color: blue;
+}
+
+@media screen and (max-width: 650px) {
+  #newseltter {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  #newseltter .container-newseltter img {
+    width: 100%;
   }
 }
 * {
