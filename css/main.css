@@ -16,7 +16,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 70px;
   position: sticky;
   top: 0;
   width: 100%;
@@ -160,6 +160,7 @@ nav #nav-button:hover {
 #Features {
   background-color: white;
   color: black;
+  margin:10px;
 }
 #Features h2, #Features h5 {
   text-align: center;
