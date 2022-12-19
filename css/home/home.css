@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("./images/shape2.png");
+  background-image: url("/images/shape2.png");
   background-position-x: right;
   background-repeat: no-repeat;
 }
@@ -16,7 +16,7 @@
   padding: 10%;
 }
 #home .home-txt {
-  background-image: url("./images/shape1.png");
+  background-image: url("/images/shape1.png");
   background-repeat: no-repeat;
   background-position: left;
   display: flex;
