@@ -16,7 +16,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 60px;
   position: sticky;
   top: 0;
   width: 100%;
@@ -95,7 +95,7 @@ nav #nav-button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("./images/shape2.png");
+  background-image: url("/images/shape2.png");
   background-position-x: right;
   background-repeat: no-repeat;
 }
@@ -104,7 +104,7 @@ nav #nav-button:hover {
   padding: 10%;
 }
 #home .home-txt {
-  background-image: url("./images/shape1.png");
+  background-image: url("/images/shape1.png");
   background-repeat: no-repeat;
   background-position: left;
   display: flex;
@@ -160,7 +160,7 @@ nav #nav-button:hover {
 #Features {
   background-color: white;
   color: black;
-  margin:10px;
+  margin: 10px;
 }
 #Features h2, #Features h5 {
   text-align: center;
