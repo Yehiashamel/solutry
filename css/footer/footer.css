@@ -1,6 +1,6 @@
 footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   margin: 8% 5%;
 }
 footer .information-footer img {
